@@ -40,8 +40,8 @@ npm run generate -- "topic"        POST /api/generate
 ## Set up
 
 ```bash
-git clone https://github.com/alisaleem252/nextjs-ai-blog-starter.git
-cd nextjs-ai-blog-starter
+git clone https://github.com/alisaleem252/nexjs-ai-blog-starter.git
+cd nexjs-ai-blog-starter
 npm install
 cp .env.example .env.local
 ```
