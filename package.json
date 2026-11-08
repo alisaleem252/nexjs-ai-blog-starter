@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-ai-blog-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js + headless WordPress blog starter that writes researched articles with the RapidTextAI API and publishes them to WordPress.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "generate": "node scripts/generate.mjs",
+    "demo": "node scripts/demo.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=20.9" },
+  "keywords": ["nextjs", "headless-wordpress", "wordpress", "ai-blog", "ai-content", "seo", "article-generator", "starter-template", "react", "rapidtextai"],
+  "repository": { "type": "git", "url": "git+https://github.com/alisaleem252/nextjs-ai-blog-starter.git" },
+  "homepage": "https://github.com/alisaleem252/nextjs-ai-blog-starter#readme",
+  "dependencies": { "next": "^16.0.0", "react": "^19.0.0", "react-dom": "^19.0.0" }
+}
